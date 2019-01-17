@@ -21,18 +21,21 @@ Using code warping, code bloat, logic obfuscation at compile stage,can prevent t
 ### 2.Block Scheduling
 Encrypting code references and function calls during the compilation phase can realize function logic hiding and function logic chain breaking, and can prevent static analysis of reverse tools such as IDA Pro.
 * Decompile **unencrypted** function in IDA Pro 
+
 !["1-5"](./image/effect5.jpg "未加密的函数")
 
 * Using Ida Pro to decompile the **encrypted** function will fail because the function call relationship is replaced.
+
 !["1-6"](./image/effect6.jpg "已加密的函数")
 
 ### 3.String Encryption
 Encrypting sensitive string data to prevent attackers from using keyword search to locate key codes, increasing reverse difficulty
-* View **unencrypted** string in IDA Pro 
+* View **unencrypted** string in IDA Pro
 
 !["1-3"](./image/effect3.jpg "未加密的字符串")
 
 * View **encrypted** string in IDA Pro    
+
 !["1-4"](./image/effect4.jpg "已加密的字符串")
 
 

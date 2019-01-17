@@ -38,6 +38,7 @@ Encrypting sensitive string data to prevent attackers from using keyword search 
 
 !["1-4"](./image/effect4.jpg "已加密的字符串")
 
+## Documentation
 
 
 ## Kiwisec

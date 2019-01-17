@@ -8,6 +8,32 @@ Source Code Encryption Tool [KiwiCompiler] is a Native source code encryption to
 * **Multi-Language:** Support for obfuscation protection of C, C++, Objective-C, Swift codes.
 * **Easy to Use:** Android studio plug-in mode, the same as the original compilation process.
 
+## Functional Description
+### 1.Code Obfuscation
+Using code warping, code bloat, logic obfuscation at compile stage,can prevent the crack analysis of reverse tools such as IDA Pro
+
+* View the function flow chart of **unencrypted** in IDA Pro
+!["1-1"](./image/effect1.jpg "未加密的函数流程图")
+
+* View the function flow chart of **encrypted** in IDA Pro
+!["1-2"](./image/effect2.jpg "已加密的函数流程图")
+
+### 2.Block Scheduling
+Encrypting code references and function calls during the compilation phase can realize function logic hiding and function logic chain breaking, and can prevent static analysis of reverse tools such as IDA Pro.
+* Decompile **unencrypted** function in IDA Pro 
+!["1-5"](./image/effect5.jpg "未加密的函数")
+
+* Using Ida Pro to decompile the **encrypted** function will fail because the function call relationship is replaced.
+!["1-6"](./image/effect6.jpg "已加密的函数")
+
+### 3.String Encryption
+Encrypting sensitive string data to prevent attackers from using keyword search to locate key codes, increasing reverse difficulty
+* View **unencrypted** string in IDA Pro 
+
+!["1-3"](./image/effect3.jpg "未加密的字符串")
+
+* View **encrypted** string in IDA Pro    
+!["1-4"](./image/effect4.jpg "已加密的字符串")
 
 
 

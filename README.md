@@ -40,6 +40,8 @@ Encrypting sensitive string data to prevent attackers from using keyword search 
 
 ## Documentation
 
+You can find the KiwiVM documentation [on the website](https://document.kiwisec.com/en/kiwiVM).  
+
 #### 1. Obtain
 After purchasing the KiwiCompiler, use the machine code generation tool, provided by the KiwiSec to extract the key of the computer to be bound. It will generate a unique KiwiCompiler toolkit based on the Key, authorization time, and enterprise information.
 
